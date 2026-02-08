@@ -2,6 +2,7 @@
 import SectionTitle from "../../../components/SectionTitle/SectionTitle";
 import MenuItem from "../../Shared/MenuItem/MenuItem";
 import useMenu from "../../../hooks/useMenu";
+import MenuCategory from "../../Menu/MenuCategory/MenuCategory";
 
 
 const PopularMenu = () => {
@@ -17,11 +18,8 @@ const PopularMenu = () => {
             heading={"Popular Items"}
             ></SectionTitle>
 
-            <div className="grid md:grid-cols-2 gap-10">
-                {
-                    popular.map(item => <MenuItem key={item._id} item={item}></MenuItem>)
-                }
-            </div>
+            <MenuCategory items={popular}></MenuCategory>
+
             <button className="btn btn-outline border-0 border-b-2 mt-4">View Full Menu</button>
         </section>
     );
