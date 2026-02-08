@@ -1,6 +1,6 @@
 import { Parallax } from 'react-parallax';
 
-const Cover = ({ img, title, subTitle }) => {
+const Cover = ({ img, title }) => {
     return (
 
         <Parallax
@@ -15,7 +15,7 @@ const Cover = ({ img, title, subTitle }) => {
                     <div className="max-w-4xl bg-black/50 p-16">
                         <h1 className="mb-5 text-4xl md:text-7xl font-bold uppercase">{title}</h1>
                         <p className="mb-5">
-                            {subTitle}
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates consectetur minus suscipit nulla voluptas in nisi facilis iste, quidem impedit ipsum, assumenda nam!
                         </p>
 
                     </div>

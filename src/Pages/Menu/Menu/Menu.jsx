@@ -27,7 +27,7 @@ const Menu = () => {
                 <title>Bistro Boss | Menu</title>
             </Helmet>
 
-            <Cover img={menuImg} title="Our Menu" subTitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates consectetur minus suscipit nulla voluptas in nisi facilis iste, quidem impedit ipsum, assumenda nam!"></Cover>
+            <Cover img={menuImg} title="Our Menu"></Cover>
 
             
             <SectionTitle
